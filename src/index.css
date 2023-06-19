@@ -1,13 +1,110 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@400;700&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /* font-size */
+  --fs-xsm: 20px;
+  --fs-sm: 30px;
+  --fs-md: 32px;
+  --fs-xl: 35px;
+  --fs-2xl: 40px;
+  --fs-3xl: 45px;
+  --fs-4xl: 50px;
+  --fs-5xl: 60px;
+  --fs-6xl: 100px;
+
+  /* color */
+  --fc-black: #000000;
+  --fc-white: #ffffff;
+  --fc-light: #f5efef;
+  --fc-grey: #606060;
+  --fc-darkGrey: #737171;
+  --fc-dark: #181818;
+
+  /* ff */
+  --ff-forum: 'Forum', cursive;
+  --ff-montserrat: 'Montserrat', sans-serif;
+}
+
+/* ======= font family ======= */
+.ff_Forum {
+  font-family: var(--ff-forum);
+}
+
+.ff_Montserrat {
+  font-family: var(--ff-montserrat);
+}
+
+/*  ===== font size ======= */
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+.fs_md {
+  font-size: var(--fs-md);
+}
+
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+
+.fs_6xl {
+  font-size: var(--fs-6xl);
+}
+
+/*  ======== color ========== */
+
+.fc_black {
+  color: var(--fc-black);
+}
+
+.fc_dark {
+  color: var(--fc-dark);
+}
+
+.fc_white {
+  color: var(--fc-white);
+}
+
+.fc_grey {
+  color: var(--fc-grey);
+}
+
+.fc_darkGrey {
+  color: var(--fc-darkGrey);
+}
+
+.fc_light {
+  color: var(--fc-light);
+}
+
+.Cursor_Pointer {
+  cursor: pointer;
 }
