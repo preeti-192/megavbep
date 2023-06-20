@@ -8,16 +8,16 @@ const HeroSecttion = () => {
       <header className="d-flex flex-column min_vh_xl_100">
         <NavigationBar />
         <section className="flex-grow-1 position-relative py-1">
-          <div className="py-5 position-relative z-1 d-flex justify-content-center flex-column align-items-center">
-            <img className="logoHero" src={logoSite} alt="img" />
-            <h1 className="ff_Forum fw-normal fs_xl fc_light pb-5">
+          <div className="py-5 mb-sm-5 position-relative z-1 d-flex justify-content-center flex-column align-items-center px-2">
+            <img className="logoHero mb-lg-3" src={logoSite} alt="img" />
+            <h1 className="ff_Forum fw-normal pt-1 fs_xl fc_light pb-lg-5 text-center">
               МЕБЕЛЬНАЯ ФАБРИКА
             </h1>
-            <h2 className="ff_Forum fw-normal fs_md fc_light pt-5 mt-5">
+            <h2 className="ff_Forum fw-normal fs_md fc_light pt-5 mt-md-5 pb-4 mb-1 text-center">
               ХОТИТЕ ПОЛУЧИТЬ БЫСТРЫЙ РАСЧЕТ?
             </h2>
-            <button>ОСТАВИТЬ ЗАЯВКУ</button>
-            <h5>Бесплатный замер</h5>
+            <button className="fw-normal fs_md ff_Montserrat fc_light bg-transparent heroBtn">ОСТАВИТЬ ЗАЯВКУ</button>
+            <h5 className="fw-normal fs_xsm ff_Montserrat fc_light pt-4 mt-1 text-center">Бесплатный замер</h5>
           </div>
           <video
             muted

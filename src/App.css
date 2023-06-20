@@ -32,6 +32,10 @@
 .logoHero{
   max-width: 230px;
 }
+.heroBtn{
+  border:3px solid var(--fc-light);
+  padding: 22px 11px 21px 12px;
+}
 @media (max-width:1199.9px) {
   .navBarSM{
     position: fixed;
