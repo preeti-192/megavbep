@@ -15,12 +15,14 @@ import Hawn from "./components/Hawn";
 import KakMbi from "./components/KakMbi";
 import BackToTop from "./components/BackToTop";
 import LoaderHome from "./components/LoaderHome";
+import HeroSecttion from "./components/HeroSecttion";
 
 function App() {
   return (
-    <div className=" overflow-hidden">
+    <div className="main-bg overflow-hidden">
       <LoaderHome />
       <BackToTop />
+      <HeroSecttion />
       <MegavbSlider />
       <BadRoomSec />
       <Cabinates />

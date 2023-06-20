@@ -13,8 +13,9 @@ const Hawn = () => {
             ПАРТНЕРЫ
           </h3>
         </div>
-        <div className=" vh_100">
+        <div className=" position-relative">
           <video
+            className="w-100 h-100 object-fit-cover"
             muted
             autoPlay={"autoplay"}
             preload="auto"

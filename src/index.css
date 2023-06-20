@@ -171,10 +171,6 @@
   line-height: 13px;
 }
 
-.vh_100 {
-  height: 30vh;
-}
-
 .slider_shadow {
   background: rgba(53, 52, 52, 0.8);
   filter: blur(75px);
@@ -276,10 +272,6 @@
     --fs-6xl: 70px;
   }
 
-  .vh_100 {
-    height: 50vh;
-  }
-
   .mw_77 {
     max-width: 77px;
   }
@@ -329,10 +321,6 @@
     --fs-4xl: 50px;
     --fs-5xl: 60px;
     --fs-6xl: 80px;
-  }
-
-  .vh_100 {
-    height: 100vh;
   }
 
   .end_40 {
@@ -479,13 +467,19 @@
   }
 }
 
-.social_icons a:hover{
+.social_icons a:hover {
   transform: translateY(-10px);
 }
 
-.social_icons a{
+.social_icons a {
   transition: all .3s;
 }
-.SliderArrows:active{
+
+.SliderArrows:active {
   transform: scale(.89);
+}
+
+.main-bg {
+  background: url("./assets/images/webp/main-bg.webp") no-repeat;
+  background-size: cover;
 }
