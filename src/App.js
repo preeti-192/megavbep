@@ -13,9 +13,14 @@ import MegaFooter from "./components/MegaFooter";
 import OctaSlider from "./components/OctaSlider";
 import Hawn from "./components/Hawn";
 import KakMbi from "./components/KakMbi";
+import BackToTop from "./components/BackToTop";
+import LoaderHome from "./components/LoaderHome";
+
 function App() {
   return (
-    <div className="bgSite overflow-hidden">
+    <div className=" overflow-hidden">
+      <LoaderHome />
+      <BackToTop />
       <MegavbSlider />
       <BadRoomSec />
       <Cabinates />
