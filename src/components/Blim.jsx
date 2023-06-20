@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import blumImg from "../assets/images/webp//blum.webp";
+import blumVideo from "../assets/images/videos/blum-1.mp4";
 const Blim = () => {
   return (
     <>
@@ -8,7 +8,14 @@ const Blim = () => {
         <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
           <Row className="align-items-center flex-wrap-reverse">
             <Col className="pe-xl-5 pe-4" lg={6} xs={12}>
-              <img className="w-100 pe-xxl-4" src={blumImg} alt="img" />
+              <video
+                muted
+                autoPlay={"autoplay"}
+                preLoad="auto"
+                loop
+                className="w-100 pe-xxl-4"
+                src={blumVideo}
+              ></video>
             </Col>
             <Col lg={6} xs={12}>
               <div className="pe-lg-5 me-xl-4 me-xxl-4 ps-xxl-5 mb-lg-0 mb-3">

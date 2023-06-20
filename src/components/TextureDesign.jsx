@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from "react-bootstrap";
-import textures from "../assets/images/webp/materialTexture.webp";
+import furnitureSkin from "../assets/images/videos/furniture-skin1.mp4";
 const TextureDesign = () => {
   return (
     <>
@@ -21,7 +21,14 @@ const TextureDesign = () => {
               </div>
             </Col>
             <Col className="ps-xl-5 ps-lg-4" lg={6} xs={12}>
-              <img className="w-100 ps-xxl-4" src={textures} alt="img" />
+              <video
+                muted
+                autoPlay={"autoplay"}
+                preLoad="auto"
+                loop
+                className="w-100 ps-xxl-4"
+                src={furnitureSkin}
+              ></video>
             </Col>
           </Row>
         </div>

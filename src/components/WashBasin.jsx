@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import washBasin from "../assets/images/webp//WashBasin2.webp";
+import washBasin from "../assets/images/videos/washfashion.mp4";
 const WashBasin = () => {
   return (
     <>
@@ -8,7 +8,14 @@ const WashBasin = () => {
         <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
           <Row className="align-items-center flex-wrap-reverse">
             <Col className="pe-xl-5 pe-lg-4" lg={6} xs={12}>
-              <img className="w-100 pe-xxl-4" src={washBasin} alt="img" />
+              <video
+                muted
+                autoPlay={"autoplay"}
+                preLoad="auto"
+                loop
+                className="w-100 pe-xxl-4"
+                src={washBasin}
+              ></video>
             </Col>
             <Col lg={6} xs={12}>
               <div

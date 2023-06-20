@@ -13,9 +13,11 @@ import MegaFooter from "./components/MegaFooter";
 import OctaSlider from "./components/OctaSlider";
 import Hawn from "./components/Hawn";
 import KakMbi from "./components/KakMbi";
+import HeroSecttion from "./components/HeroSecttion";
 function App() {
   return (
     <div className="bgSite overflow-hidden">
+      <HeroSecttion />
       <MegavbSlider />
       <BadRoomSec />
       <Cabinates />
