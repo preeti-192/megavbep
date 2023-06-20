@@ -3,11 +3,11 @@
   padding-right: 12px;
   padding-left: 12px;
 }
-/* .bgSite {
+.bgSite {
   background-image: url(./assets/images/png/bg-site.png);
   background-size: cover;
   background-repeat: no-repeat;
-} */
+}
 .BasinButton {
   padding: 14px 17px;
   line-height: 120%;
