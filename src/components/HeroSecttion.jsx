@@ -24,7 +24,7 @@ const HeroSecttion = () => {
             autoPlay={"autoplay"}
             preLoad="auto"
             loop
-            className="w-100 h-100 object-fit-cover position-absolute start-0 top-0 z-1"
+            className="w-100 h-100 object-fit-cover position-absolute start-0 top-0 z-0"
             src={heroVideo}
           ></video>
         </section>

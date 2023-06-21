@@ -15,8 +15,8 @@ import { Col, Row } from "react-bootstrap";
 const KakMbi = () => {
   const slider = useRef();
   const slider2 = useRef();
-  var settings = {
-    dots: false,
+  var settings2 = {
+    dots: true,
     infinite: true,
     speed: 300,
     cssEase: "linear",
@@ -24,6 +24,35 @@ const KakMbi = () => {
     fade: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 300,
+    cssEase: "linear",
+    arrows: false,
+    fade: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    customPaging: function (i) {
+      return (
+        <div class="slick-counter d-lg-flex d-none">
+          <span class="current ff_Montserrat fw-bold fs_6xl fc_dark lh_122">
+            {i + 1}
+          </span>
+          <span class="total ff_Montserrat fw-bold fs_4xl fc_dark text-nowrap pt-2"> / 06</span>
+        </div>
+      );
+    },
     responsive: [
       {
         breakpoint: 1400,
@@ -45,15 +74,9 @@ const KakMbi = () => {
             РАБОТАЕМ?
           </h3>
         </div>
-        <div class="slick-counter d-lg-flex d-none">
-          <span class="current ff_Montserrat fw-bold fs_6xl fc_dark lh_122">
-            01
-          </span>
-          <span class="total ff_Montserrat fw-bold fs_4xl fc_dark"> / 06</span>
-        </div>
         <Row className="align-items-center">
           <Col xl={5} lg={6} className="bg_dark ps-4 pt-4 pe-0">
-            <Slider ref={slider2} {...settings}>
+            <Slider ref={slider2} {...settings2}>
               <div>
                 <h2 className="ff_Montserrat fw-bold fc_light fs_2xl text-uppercase mb-xxl-5 mb-3">
                   получите консультацию специалиста
@@ -114,6 +137,7 @@ const KakMbi = () => {
               <img src={lights} alt="lights" className="w-100 h-100" />
               <img src={room} alt="room" className="w-100 h-100" />
               <img src={sofa2} alt="sofa2" className="w-100 h-100" />
+              <img src={lights} alt="lights" className="w-100 h-100" />
             </Slider>
           </Col>
         </Row>

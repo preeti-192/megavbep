@@ -32,7 +32,7 @@ const WashBasin = () => {
                   <p className="text-center ff_Montserrat fw-normal fs_md mb-xl-5 mb-3 fc_dark">
                     Получите консультацию прямо сейчас
                   </p>
-                  <button className="ff_Montserrat fw-normal fs_sm fc_black BasinButton bg-transparent">
+                  <button className="ff_Montserrat fw-normal fs_sm fc_black BasinButton bg-transparent octa_btn">
                     ОСтавить контакты
                   </button>
                 </div>

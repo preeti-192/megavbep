@@ -248,6 +248,12 @@
 
   .octa_btn {
     line-height: 73px;
+    transition: all .3s;
+  }
+
+  .octa_btn:hover {
+    color: white;
+    background-color: var(--bg-dark) !important;
   }
 
   .mw_127 {
@@ -304,7 +310,7 @@
   }
 
   .slick-counter {
-    top: 19%;
+    top: -20%;
     right: 5%;
   }
 }
@@ -482,4 +488,19 @@
 .main-bg {
   background: url("./assets/images/webp/main-bg.webp") no-repeat;
   background-size: cover;
+}
+
+
+.slick-dots li {
+  display: none !important;
+  position: static !important;
+}
+
+.slick-dots {
+  position: static !important;
+}
+
+.slick-dots .slick-active {
+  display: inline-block !important;
+
 }
