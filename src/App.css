@@ -44,7 +44,7 @@
 .heroBtn {
   border: 3px solid var(--fc-light);
   padding: 22px 11px 21px 12px;
-  transition: all 0.2s;
+  transition: all 0.4s;
   line-height: 39px;
 }
 

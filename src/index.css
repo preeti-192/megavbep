@@ -309,9 +309,8 @@
     max-width: 557px;
   }
 
-  .slick-counter {
-    top: -20%;
-    right: 5%;
+  .kak_arrow {
+    max-width: 74px;
   }
 }
 
@@ -343,6 +342,11 @@
 
   .footerContainer {
     max-width: 1700px !important;
+  }
+
+  .slick-counter {
+    top: -20%;
+    right: 5%;
   }
 }
 
@@ -519,4 +523,8 @@
 .footer_text_underline:hover::after {
   content: "";
   width: 0;
+}
+
+.kak_arrow {
+  max-width: 54px;
 }

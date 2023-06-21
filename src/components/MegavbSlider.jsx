@@ -68,10 +68,14 @@ const MegavbSlider = () => {
   return (
     <>
       <section className="py-5 position-relative" id="slider1">
-        <div className="slider_shadow position-absolute end-0"></div>
-        <div className="slider_shadow position-absolute start-0"></div>
-        <div className="container footerContainer position-relative pt-5">
-          <Slider ref={slider} {...settings} className="Portfolio_slider pt-5">
+        <div className="slider_shadow position-absolute end-0 d-md-block d-none"></div>
+        <div className="slider_shadow position-absolute start-0 d-md-block d-none"></div>
+        <div className="container footerContainer position-relative">
+          <Slider
+            ref={slider}
+            {...settings}
+            className="Portfolio_slider pt-lg-5"
+          >
             <div className="px-2">
               <img src={mirror} alt="mirror" className="w-100" />
             </div>

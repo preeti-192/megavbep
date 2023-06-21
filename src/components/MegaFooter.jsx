@@ -60,20 +60,21 @@ const MegaFooter = () => {
             </Col>
             <Col lg={6}>
               <img src={office} alt="office" className="w-100" />
+              <div className="d-flex justify-content-center align-items-center gap-5 mt-5 social_icons ">
+                <a href="#">
+                  <img src={insta} alt="insta" className="mw_77 w-100" />
+                </a>
+                <a href="#" className=" mx-lg-5 px-5">
+                  <img src={chat} alt="chat" className="mw_77 w-100" />
+                </a>
+                <a href="#">
+                  <img src={home} alt="home" className="mw_77 w-100" />
+                </a>
+              </div>
             </Col>
           </Row>
-          <div className="d-flex justify-content-end align-items-center gap-5 mt-5 social_icons">
-            <a href="#">
-              <img src={insta} alt="insta" className="mw_77 w-100" />
-            </a>
-            <a href="#">
-              <img src={chat} alt="chat" className="mw_77 w-100" />
-            </a>
-            <a href="#">
-              <img src={home} alt="home" className="mw_77 w-100" />
-            </a>
-          </div>
-          <div className="d-flex  justify-content-end align-items-center gap-lg-5 gap-3 mt-5">
+
+          <div className="d-flex  justify-content-end align-items-center gap-lg-5 gap-3 mt-5 me-md-5 pe-lg-5">
             <label
               htmlFor="email"
               className="ff_Montserrat fw-bold fc_light fs_2xl"

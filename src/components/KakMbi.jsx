@@ -16,7 +16,7 @@ const KakMbi = () => {
   const slider = useRef();
   const slider2 = useRef();
   var settings2 = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     cssEase: "linear",
@@ -75,7 +75,7 @@ const KakMbi = () => {
           </h3>
         </div>
         <Row className="align-items-center">
-          <Col xl={5} lg={6} className="bg_dark ps-4 pt-4 pe-0">
+          <Col xl={5} className="bg_dark ps-4 pt-4 pe-0">
             <Slider ref={slider2} {...settings2}>
               <div>
                 <h2 className="ff_Montserrat fw-bold fc_light fs_2xl text-uppercase mb-xxl-5 mb-3">
@@ -115,23 +115,23 @@ const KakMbi = () => {
                   slider.current.slickPrev();
                   slider2.current.slickPrev();
                 }}
-                className="kakSliderPrevArrows px-5 py-1"
+                className="kakSliderPrevArrows px-md-5 px-3 py-1"
               >
-                <img src={prevArrow} alt="prevArrow" />
+                <img src={prevArrow} alt="prevArrow" className="kak_arrow" />
               </button>
               <button
                 onClick={() => {
                   slider.current.slickNext();
                   slider2.current.slickNext();
                 }}
-                className="border-0 px-5 py-1"
+                className="border-0 px-md-5 px-3 py-1"
               >
-                <img src={nextArrow} alt="nextArrow" />
+                <img src={nextArrow} alt="nextArrow" className="kak_arrow" />
               </button>
             </div>
           </Col>
-          <Col xl={7} lg={6} className="ps-0 h-100">
-            <Slider ref={slider} {...settings}>
+          <Col xl={7} className="ps-0 h-100">
+            <Slider ref={slider} {...settings} className="kakvb_img_slider">
               <img src={kitchen} alt="kitchen" className="w-100 h-100" />
               <img src={sofa} alt="sofa" className="w-100 h-100" />
               <img src={lights} alt="lights" className="w-100 h-100" />
