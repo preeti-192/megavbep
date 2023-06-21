@@ -45,11 +45,11 @@ const KakMbi = () => {
     slidesToScroll: 1,
     customPaging: function (i) {
       return (
-        <div class="slick-counter d-lg-flex d-none">
-          <span class="current ff_Montserrat fw-bold fs_6xl fc_dark lh_122">
+        <div class="slick-counter d-flex">
+          <span class="current ff_Montserrat fw-bold fs_6xl lh_122">
            0{i + 1}
           </span>
-          <span class="total ff_Montserrat fw-bold fs_4xl fc_dark text-nowrap pt-2"> / 06</span>
+          <span class="total ff_Montserrat fw-bold fs_4xl text-nowrap pt-2"> / 06</span>
         </div>
       );
     },
