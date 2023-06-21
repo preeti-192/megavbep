@@ -9,10 +9,18 @@ const TextureDesign = () => {
           <Row className="align-items-center flex-wrap-reverse">
             <Col lg={6} xs={12}>
               <div className="ps-lg-5 ms-xl-3 mb-lg-0 mt-3">
-                <h2 className="fs_5xl text-lg-start text-center fw-normal ff_Forum pb-xl-4 mb-lg-3 mb-2 fc_black">
+                <h2
+                  className="fs_5xl text-lg-start text-center fw-normal ff_Forum pb-xl-4 mb-lg-3 mb-2 fc_black"
+                  data-aos="fade-right"
+                  data-aos-delay="1500"
+                >
                   МАТЕРИАЛЫ
                 </h2>
-                <p className="ff_Montserrat text-lg-start text-center fw-normal fs_md mb-0 fc_black">
+                <p
+                  className="ff_Montserrat text-lg-start text-center fw-normal fs_md mb-0 fc_black"
+                  data-aos="fade-right"
+                  data-aos-delay="1800"
+                >
                   Для создания хорошей мебели очень важно использование
                   качественных материалов. Мы напрямую работаем только с
                   проверенными производителями Турции, Австрии, Польши и России.
@@ -20,7 +28,13 @@ const TextureDesign = () => {
                 </p>
               </div>
             </Col>
-            <Col className="ps-xl-5 ps-lg-4" lg={6} xs={12}>
+            <Col
+              className="ps-xl-5 ps-lg-4"
+              lg={6}
+              xs={12}
+              data-aos="fade-left"
+              data-aos-delay="1500"
+            >
               <video
                 muted
                 autoPlay={"autoplay"}
