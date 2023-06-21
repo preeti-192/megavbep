@@ -115,7 +115,7 @@ const KakMbi = () => {
                   slider.current.slickPrev();
                   slider2.current.slickPrev();
                 }}
-                className="kakSliderPrevArrows px-md-5 px-3 py-md-2"
+                className="kakSliderPrevArrows px-md-5 px-3 py-md-2 kak_arrows"
               >
                 <img src={prevArrow} alt="prevArrow" className="kak_arrow" />
               </button>
@@ -124,7 +124,7 @@ const KakMbi = () => {
                   slider.current.slickNext();
                   slider2.current.slickNext();
                 }}
-                className="border-0 px-md-5 px-3 py-md-2"
+                className="border-0 px-md-5 px-3 py-md-2 kak_arrows"
               >
                 <img src={nextArrow} alt="nextArrow" className="kak_arrow" />
               </button>
