@@ -65,7 +65,7 @@ const KakMbi = () => {
   };
   return (
     <>
-      <section className="py-5 mt-5 position-relative" id="slider2">
+      <section className=" max_w1920 mx-auto py-5 mt-5 position-relative" id="slider2">
         <div className="ps-lg-5 ps-2">
           <h2 className="ff_Montserrat fw-normal fs_6xl text-uppercase fc_dark mb-0">
             КАК МЫ
@@ -130,7 +130,13 @@ const KakMbi = () => {
               </button>
             </div>
           </Col>
-          <Col xl={7} className="ps-0 h-100">
+          <Col
+            xl={7}
+            className="ps-0 h-100"
+            data-aos="flip-left"
+            data-aos-delay="1000"
+            data-aos-offset="500"
+          >
             <Slider ref={slider} {...settings} className="kakvb_img_slider">
               <img src={kitchen} alt="kitchen" className="w-100 h-100" />
               <img src={sofa} alt="sofa" className="w-100 h-100" />

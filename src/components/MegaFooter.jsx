@@ -25,6 +25,8 @@ const MegaFooter = () => {
                 <a
                   href="tel:+77472742260"
                   className="ff_Montserrat fw-normal fs_2xl fc_light footer_text_underline position-relative fst-italic"
+                  data-aos="zoom-in"
+                  data-aos-delay="300"
                 >
                   +7 747 274 22 60
                 </a>
@@ -34,6 +36,8 @@ const MegaFooter = () => {
                 <a
                   href="tel:+77472742260"
                   className="ff_Montserrat fw-normal fs_2xl fc_light footer_text_underline position-relative fst-italic"
+                  data-aos="zoom-in"
+                  data-aos-delay="600"
                 >
                   +7 727 327 73 27
                 </a>
@@ -43,6 +47,8 @@ const MegaFooter = () => {
                 <a
                   href="mailto:mebelier_almaty@inbox.ru"
                   className="ff_Montserrat fw-normal fs_2xl fc_light footer_text_underline position-relative fst-italic"
+                  data-aos="zoom-in"
+                  data-aos-delay="900"
                 >
                   mebelier_almaty@inbox.ru
                 </a>
@@ -53,7 +59,11 @@ const MegaFooter = () => {
                   alt="location_icon"
                   className="mw_54 w-100"
                 />
-                <p className="ff_Montserrat fw-normal fs_2xl fc_light footer_text_underline position-relative fst-italic">
+                <p
+                  className="ff_Montserrat fw-normal fs_2xl fc_light footer_text_underline position-relative fst-italic"
+                  data-aos="zoom-in"
+                  data-aos-delay="1200"
+                >
                   г. Алматы, ул. Коперника, 72В
                 </p>
               </div>
