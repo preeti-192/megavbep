@@ -67,7 +67,7 @@ const MegavbSlider = () => {
   };
   return (
     <>
-      <section className="py-5 position-relative">
+      <section className="py-5 position-relative" id="slider1">
         <div className="slider_shadow position-absolute end-0"></div>
         <div className="slider_shadow position-absolute start-0"></div>
         <div className="container footerContainer position-relative pt-5">

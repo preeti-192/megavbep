@@ -4,7 +4,7 @@
   padding-left: 12px;
 }
 .bgSite {
-  background-image:url(./assets/images/png/bg-site.png);
+  background-image: url(./assets/images/png/bg-site.png);
   /* background: #000;   */
   /* background-size: 100%, 100%; */
   /* background-repeat: no-repeat; */
@@ -17,39 +17,48 @@
 .lh_100 {
   line-height: 100%;
 }
-.gap_35{
+.gap_35 {
   gap: 35px;
 }
-.gap_20{
+.gap_20 {
   gap: 20px;
 }
-.z_50{
+.z_50 {
   z-index: 50;
 }
-.z_51{
+.z_51 {
   z-index: 51;
 }
-.logoHero{
+.logoHero {
   max-width: 230px;
 }
-.heroBtn{
-  border:3px solid var(--fc-light);
+.heroBtn {
+  border: 3px solid var(--fc-light);
   padding: 22px 11px 21px 12px;
 }
-@media (max-width:1199.9px) {
-  .navBarSM{
+.text_underline::after{
+  content:'';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--fc-grey);
+}
+@media (max-width: 1199.9px) {
+  .navBarSM {
     position: fixed;
     left: -100%;
     top: 0;
     flex-direction: column;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
     height: 100vh;
     width: 100%;
     gap: 24px;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
-  .navBarSM ul{
+  .navBarSM ul {
     gap: 24px;
   }
 }
@@ -60,21 +69,21 @@
     padding-left: 0;
   }
 }
-@media (min-width:1200px) {
-  .min_vh_xl_100{
+@media (min-width: 1200px) {
+  .min_vh_xl_100 {
     min-height: 100vh;
   }
 }
-@media (min-width:1400px) {
-  .gap_60{
+@media (min-width: 1400px) {
+  .gap_60 {
     gap: 60px;
   }
 }
-@media (min-width:1600px) {
-  .gap_136{
-  gap: 136px !important;
-}
-.gap_83{
-  gap: 83px !important;
-}
+@media (min-width: 1600px) {
+  .gap_136 {
+    gap: 136px !important;
+  }
+  .gap_83 {
+    gap: 83px !important;
+  }
 }

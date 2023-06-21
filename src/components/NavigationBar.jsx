@@ -5,9 +5,9 @@ import message from "../assets/images/svg/msgIcon.svg";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 const NavigationBar = () => {
-  const [show, setshow] = useState(true);
+  const [show, setShow] = useState(true);
   function showUl() {
-    setshow(!show);
+    setShow(!show);
   }
   if (!show) {
     document.body.classList.add("overflow-hidden");
@@ -25,33 +25,33 @@ const NavigationBar = () => {
           >
             <ul className=" d-flex align-items-center flex-xl-row flex-column mb-0 ps-0 gap_136 gap_60 gap_35">
               <li>
-                <a
+                <a onClick={() => setShow(true)}
                   className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
-                  href="#"
+                  href="#slider1"
                 >
                   ПОРТФОЛИО
                 </a>
               </li>
               <li>
-                <a
+                <a onClick={() => setShow(true)}
                   className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
-                  href="#"
+                  href="#products"
                 >
                   уСЛУГИ
                 </a>
               </li>
               <li>
-                <a
+                <a onClick={() => setShow(true)}
                   className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
-                  href="#"
+                  href="#slider2"
                 >
-                  оТЗЫВЫ{" "}
+                  оТЗЫВЫ
                 </a>
               </li>
               <li>
-                <a
+                <a onClick={() => setShow(true)}
                   className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
-                  href="#"
+                  href="#footer"
                 >
                   кОНТАКТЫ
                 </a>
@@ -59,12 +59,18 @@ const NavigationBar = () => {
             </ul>
             <ul className="ps-0 mb-0 d-flex flex-column">
               <li>
-                <a className=" ff_Montserrat fw-normal fs_xsm fc_grey" href="#">
+                <a
+                  className=" ff_Montserrat fw-normal fs_xsm fc_grey text_underline position-relative"
+                  href="tel:+7 747 274 22 60"
+                >
                   <i>+7 747 274 22 60</i>
                 </a>
               </li>
               <li>
-                <a className=" ff_Montserrat fw-normal fs_xsm fc_grey" href="#">
+                <a
+                  className=" ff_Montserrat fw-normal fs_xsm fc_grey text_underline position-relative"
+                  href="tel:+7 727 327 73 27"
+                >
                   <i>+7 727 327 73 27</i>
                 </a>
               </li>
@@ -76,9 +82,15 @@ const NavigationBar = () => {
             </h2>
           </div>
           <div className="d-flex align-items-center gap_20">
-            <img src={instagram} alt="icon" />
-            <img src={whatsapp} alt="icon" />
-            <img src={message} alt="icon" />
+            <a href="#">
+              <img src={instagram} alt="icon" />
+            </a>
+            <a href="#">
+              <img src={whatsapp} alt="icon" />
+            </a>
+            <a href="#">
+              <img src={message} alt="icon" />
+            </a>
           </div>
         </div>
       </nav>

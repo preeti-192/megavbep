@@ -36,7 +36,7 @@ const KakMbi = () => {
   };
   return (
     <>
-      <section className="py-5 position-relative">
+      <section className="py-5 position-relative" id="slider2">
         <div className="ps-lg-5 ps-2">
           <h2 className="ff_Montserrat fw-normal fs_6xl text-uppercase fc_dark mb-0">
             КАК МЫ

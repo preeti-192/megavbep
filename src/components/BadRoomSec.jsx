@@ -4,7 +4,7 @@ import bedroom from "../assets/images/videos/bedroom1.mp4";
 const BadRoomSec = () => {
   return (
     <>
-      <section className="py-5">
+      <section className="py-5" id='products'>
         <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
           <Row className="align-items-center flex-wrap-reverse  ">
             <Col className="pe-xl-5 pe-lg-4" lg={6} xs={12}>
