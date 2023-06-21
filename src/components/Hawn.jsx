@@ -5,11 +5,11 @@ const Hawn = () => {
   return (
     <>
       <section className="py-lg-0 py-xl-5 mt-5 max_w1920 mx-auto">
-        <div className=" d-flex flex-column justify-content-end mb-5">
+        <div className=" d-flex flex-column justify-content-end mb-sm-5 mb-4">
           <h2 className=" ff_Montserrat fw-normal fs_6xl fc_dark text-end mb-0">
             НАШИ
           </h2>
-          <h3 className=" ff_Montserrat fw-bold fs_6xl fc_dark text-end">
+          <h3 className=" ff_Montserrat fw-bold fs_6xl fc_dark text-end mb-0">
             ПАРТНЕРЫ
           </h3>
         </div>

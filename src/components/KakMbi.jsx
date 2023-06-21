@@ -65,7 +65,7 @@ const KakMbi = () => {
   };
   return (
     <>
-      <section className=" max_w1920 mx-auto py-5 mt-5 position-relative" id="slider2">
+      <section className=" max_w1920 mx-auto py-5 mt-sm-5 position-relative" id="slider2">
         <div className="ps-lg-5 ps-2">
           <h2 className="ff_Montserrat fw-normal fs_6xl text-uppercase fc_dark mb-0">
             КАК МЫ
@@ -115,7 +115,7 @@ const KakMbi = () => {
                   slider.current.slickPrev();
                   slider2.current.slickPrev();
                 }}
-                className="kakSliderPrevArrows px-md-5 px-3 py-1"
+                className="kakSliderPrevArrows px-md-5 px-3 py-md-2"
               >
                 <img src={prevArrow} alt="prevArrow" className="kak_arrow" />
               </button>
@@ -124,7 +124,7 @@ const KakMbi = () => {
                   slider.current.slickNext();
                   slider2.current.slickNext();
                 }}
-                className="border-0 px-md-5 px-3 py-1"
+                className="border-0 px-md-5 px-3 py-md-2"
               >
                 <img src={nextArrow} alt="nextArrow" className="kak_arrow" />
               </button>
