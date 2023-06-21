@@ -25,32 +25,36 @@ const NavigationBar = () => {
           >
             <ul className=" d-flex align-items-center flex-xl-row flex-column mb-0 ps-0 gap_136 gap_60 gap_35">
               <li>
-                <a onClick={() => setShow(true)}
-                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
+                <a
+                  onClick={() => setShow(true)}
+                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase navItems position-relative z-1"
                   href="#slider1"
                 >
                   ПОРТФОЛИО
                 </a>
               </li>
               <li>
-                <a onClick={() => setShow(true)}
-                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
+                <a
+                  onClick={() => setShow(true)}
+                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase navItems position-relative z-1"
                   href="#products"
                 >
                   уСЛУГИ
                 </a>
               </li>
               <li>
-                <a onClick={() => setShow(true)}
-                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
+                <a
+                  onClick={() => setShow(true)}
+                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase navItems position-relative z-1"
                   href="#slider2"
                 >
                   оТЗЫВЫ
                 </a>
               </li>
               <li>
-                <a onClick={() => setShow(true)}
-                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase"
+                <a
+                  onClick={() => setShow(true)}
+                  className="ff_Forum fw-normal fs_xl fc_dark text-uppercase navItems position-relative z-1"
                   href="#footer"
                 >
                   кОНТАКТЫ
@@ -81,7 +85,7 @@ const NavigationBar = () => {
               {show ? <HiMenuAlt1 /> : <AiOutlineClose />}
             </h2>
           </div>
-          <div className="d-flex align-items-center gap_20">
+          <div className="d-flex align-items-center gap_20 social_icons">
             <a href="#">
               <img src={instagram} alt="icon" />
             </a>
