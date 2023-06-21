@@ -13,6 +13,7 @@ const OctaSlider = () => {
     cssEase: "linear",
     arrows: false,
     slidesToShow: 1,
+    fade: true, 
     slidesToScroll: 1,
     responsive: [
       {
@@ -55,14 +56,14 @@ const OctaSlider = () => {
                 <div className="octaSliderBox d-flex flex-column justify-content-center align-items-center">
                   <img src={strings} alt="strings" className="mw_127" />
                   <h3 className=" text-center ff_Forum fw-normal fs_4xl mb-5 mt-3 fc_black">
-                    Вчера все доставли и выполнили работу отлично. Спасибо,
-                    Умар. Вы отличный продавец.
+                    Вчера выполнили работу отлично. Спасибо, Умар. Вы отличный
+                    продавец работу.
                   </h3>
                   <h2 className=" ff_Montserrat fw-bold fs_3xl fc_black text-center">
-                    АЛЕКСАНДР
+                    продавец
                   </h2>
                   <p className=" ff_Forum fs_3xl fw-normal fc_black text-center">
-                    +7 778 *** ** 64
+                    +6 878 *** ** 65
                   </p>
                 </div>
               </div>
@@ -70,14 +71,14 @@ const OctaSlider = () => {
                 <div className="octaSliderBox d-flex flex-column justify-content-center align-items-center">
                   <img src={strings} alt="strings" className="mw_127" />
                   <h3 className="text-center ff_Forum fw-normal fs_4xl mb-5 mt-3 fc_black">
-                    Вчера все доставли и выполнили работу отлично. Спасибо,
-                    Умар. Вы отличный продавец.
+                    Вчере доставли и выполнили работу отлично. Спасибо, Умар. Вы
+                    отличный.
                   </h3>
                   <h2 className="ff_Montserrat fw-bold fs_3xl fc_black text-center">
-                    АЛЕКСАНДР
+                    выполнили
                   </h2>
                   <p className="ff_Forum fs_3xl fw-normal fc_black text-center">
-                    +7 778 *** ** 64
+                    +9 485 *** ** 64
                   </p>
                 </div>
               </div>
@@ -91,7 +92,7 @@ const OctaSlider = () => {
             <img
               src={nextArrow}
               alt="nextArrow"
-              className="mw_127  position-absolute end_40 top-50 Cursor_Pointer"
+              className="mw_127 SliderArrows position-absolute end_40 top-50 Cursor_Pointer"
               onClick={() => slider.current.slickNext()}
             />
           </div>
