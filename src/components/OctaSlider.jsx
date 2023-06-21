@@ -27,7 +27,7 @@ const OctaSlider = () => {
   };
   return (
     <>
-      <section className="py-5 py-lg-0 py-xl-5 my-md-5 my-md-0">
+      <section className="py-5 py-lg-0 py-xl-5 my-md-5 my-md-0" id="slider2">
         <div className="container OctaContainer py-5">
           <h1 className=" ff_Montserrat fw-normal fs_6xl fc_dark mb-0">
             ОСТАВЬТЕ
