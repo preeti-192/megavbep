@@ -16,8 +16,14 @@ import KakMbi from "./components/KakMbi";
 import BackToTop from "./components/BackToTop";
 import LoaderHome from "./components/LoaderHome";
 import HeroSecttion from "./components/HeroSecttion";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="bgSite overflow-hidden">
       <LoaderHome />

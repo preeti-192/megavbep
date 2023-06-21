@@ -4,9 +4,9 @@ import design from "../assets/images/webp/designStructure.webp";
 const MapStructure = () => {
   return (
     <>
-      <section className="py-5">
-        <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
-          <Row className="align-items-center flex-wrap-reverse">
+      <section className="py-5 mb-xxl-5">
+        <div className="max_w1920 mx-auto py-xl-4 my-lg-2 mb-xl-5">
+          <Row className="align-items-center flex-wrap-reverse pb-md-5 mb-lg-5">
             <Col lg={6} xs={12}>
               <div className="ps-lg-5 ms-xl-3 pe-lg-3 mb-lg-0 mt-3">
                 <h2 className="fs_5xl fw-normal text-lg-start text-center ff_Forum pb-xl-4 mb-lg-3 mb-2 fc_black">
