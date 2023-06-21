@@ -195,6 +195,7 @@
   top: 0;
   align-items: start;
   gap: 8px;
+  color: white ;
 }
 
 .lh_122 {
@@ -347,6 +348,7 @@
   .slick-counter {
     top: -20%;
     right: 5%;
+    color: var(--fc-dark);
   }
 }
 
