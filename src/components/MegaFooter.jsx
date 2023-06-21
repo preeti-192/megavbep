@@ -12,7 +12,7 @@ import home from "../assets/images/png/home.png";
 const MegaFooter = () => {
   return (
     <>
-      <footer className="footer_bg py-5">
+      <footer className="footer_bg py-5" id="footer">
         <div className="container footerContainer py-5">
           <Row>
             <Col lg={6}>

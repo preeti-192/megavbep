@@ -19,7 +19,7 @@ import HeroSecttion from "./components/HeroSecttion";
 
 function App() {
   return (
-    <div className="main-bg overflow-hidden">
+    <div className="bgSite overflow-hidden">
       <LoaderHome />
       <BackToTop />
       <HeroSecttion />
