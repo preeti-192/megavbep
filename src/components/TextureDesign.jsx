@@ -6,9 +6,9 @@ const TextureDesign = () => {
     <>
       <section className="py-5">
         <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
-          <Row className="align-items-center ">
+          <Row className="align-items-center flex-wrap-reverse">
             <Col lg={6} xs={12}>
-              <div className="ps-lg-5 ms-xl-3 mb-lg-0 mb-3">
+              <div className="ps-lg-5 ms-xl-3 mb-lg-0 mt-3">
                 <h2 className="fs_5xl text-lg-start text-center fw-normal ff_Forum pb-xl-4 mb-lg-3 mb-2 fc_black">
                   МАТЕРИАЛЫ
                 </h2>

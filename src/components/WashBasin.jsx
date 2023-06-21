@@ -6,7 +6,7 @@ const WashBasin = () => {
     <>
       <section className="py-5">
         <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
-          <Row className="align-items-center flex-wrap-reverse">
+          <Row className="align-items-center">
             <Col className="pe-xl-5 pe-lg-4" lg={6} xs={12}>
               <video
                 muted
@@ -20,7 +20,7 @@ const WashBasin = () => {
             <Col lg={6} xs={12}>
               <div
                 style={{ maxWidth: "630px" }}
-                className="pe-lg-5 me-xl-4 d-flex align-items-center flex-column ms-lg-auto mx-auto mb-lg-0 mb-3"
+                className="pe-lg-5 me-xl-4 d-flex align-items-center flex-column ms-lg-auto mx-auto mb-lg-0 mt-3"
               >
                 <h2 className="text-center fs_5xl fw-normal ff_Forum mb-xxl-5 mb-lg-4 mb-2 fc_black lh_100">
                   все еще сомневаетесь?
