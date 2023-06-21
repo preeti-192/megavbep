@@ -24,7 +24,7 @@ const MegaFooter = () => {
                 <img src={phone} alt="phone" className="mw_54 w-100" />
                 <a
                   href="tel:+77472742260"
-                  className="ff_Montserrat fw-normal fs_2xl fc_light text-decoration-underline fst-italic"
+                  className="ff_Montserrat fw-normal fs_2xl fc_light text_underline position-relative fst-italic"
                 >
                   +7 747 274 22 60
                 </a>
@@ -33,7 +33,7 @@ const MegaFooter = () => {
                 <img src={phone} alt="phone" className="mw_54 w-100" />
                 <a
                   href="tel:+77472742260"
-                  className="ff_Montserrat fw-normal fs_2xl fc_light text-decoration-underline fst-italic"
+                  className="ff_Montserrat fw-normal fs_2xl fc_light text_underline position-relative fst-italic"
                 >
                   +7 727 327 73 27
                 </a>
@@ -42,7 +42,7 @@ const MegaFooter = () => {
                 <img src={msg} alt="msg" className="mw_54 w-100" />
                 <a
                   href="mailto:mebelier_almaty@inbox.ru"
-                  className="ff_Montserrat fw-normal fs_2xl fc_light text-decoration-underline fst-italic"
+                  className="ff_Montserrat fw-normal fs_2xl fc_light text_underline position-relative fst-italic"
                 >
                   mebelier_almaty@inbox.ru
                 </a>
@@ -53,7 +53,7 @@ const MegaFooter = () => {
                   alt="location_icon"
                   className="mw_54 w-100"
                 />
-                <p className="ff_Montserrat fw-normal fs_2xl fc_light text-decoration-underline fst-italic">
+                <p className="ff_Montserrat fw-normal fs_2xl fc_light text_underline position-relative fst-italic">
                   г. Алматы, ул. Коперника, 72В
                 </p>
               </div>
