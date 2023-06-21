@@ -35,7 +35,7 @@ const OctaSlider = () => {
           <h2 className=" ff_Montserrat fw-bold fs_6xl fc_black mb-0">
             СВОЙ ОТЗЫВ
           </h2>
-          <div className="position-relative pt-5">
+          <div className="position-relative pt-sm-5 pt-4">
             <Slider ref={slider} {...settings}>
               <div className="px-3">
                 <div className="octaSliderBox d-flex flex-column justify-content-center align-items-center">

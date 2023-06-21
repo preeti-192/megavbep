@@ -81,7 +81,7 @@ const KakMbi = () => {
                 <h2 className="ff_Montserrat fw-bold fc_light fs_2xl text-uppercase mb-xxl-5 mb-3">
                   получите консультацию специалиста
                 </h2>
-                <p className="ff_Montserrat fw-bold fc_white fs_md pe-lg-5 pb-xxl-5">
+                <p className="ff_Montserrat fw-bold fc_white fs_md pe-lg-5 pb-xxl-5 mb-0">
                   Оставьте свои данные для обратной связи
                 </p>
               </div>
@@ -89,12 +89,12 @@ const KakMbi = () => {
                 <h2 className="ff_Montserrat fw-bold fc_light fs_2xl text-uppercase mb-xxl-5 mb-3">
                   получите конльтацию спецалиста конльтацию
                 </h2>
-                <p className="ff_Montserrat fw-bold fc_white fs_md pe-lg-5 pb-xxl-5">
+                <p className="ff_Montserrat fw-bold fc_white fs_md pe-lg-5 pb-xxl-5 mb-0">
                   Оставьте обратной связи спецалиста
                 </p>
               </div>
             </Slider>
-            <div className="d-flex gap-5 align-items-center my-5 px-lg-5 me-5 social_icons">
+            <div className="d-flex gap-5 align-items-center my-sm-5 my-4 px-lg-5 me-5 social_icons">
               <a href="#">
                 <img src={chat} alt="chat" className="mw_77 kak_icon" />
               </a>
@@ -132,7 +132,7 @@ const KakMbi = () => {
           </Col>
           <Col
             xl={7}
-            className="ps-0 h-100"
+            className="ps-0 pe-0 h-100"
             data-aos="flip-left"
             data-aos-delay="1000"
             data-aos-offset="500"

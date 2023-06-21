@@ -13,11 +13,11 @@ const MegaFooter = () => {
   return (
     <>
       <footer className="footer_bg py-5" id="footer">
-        <div className="container footerContainer py-5">
+        <div className="container footerContainer py-sm-5">
           <Row>
             <Col lg={6}>
               <img src={logo} alt="logo" className="Cursor_Pointer" />
-              <h2 className="ff_Montserrat fc_white mt-5 pt-5 mb-4 fw-bold pb-2 fs_2xl">
+              <h2 className="ff_Montserrat fc_white mt-5 pt-sm-5 mb-4 fw-bold pb-2 fs_2xl">
                 НАШИ КОНТАКТЫ
               </h2>
               <div className="d-flex gap-3 align-items-center mb-4">

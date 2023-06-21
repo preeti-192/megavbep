@@ -12,13 +12,13 @@
   /* font-size */
   --fs-xsm: 20px;
   --fs-sm: 30px;
-  --fs-md: 20px;
+  --fs-md: 17px;
   --fs-xl: 35px;
   --fs-2xl: 18px;
   --fs-3xl: 20px;
-  --fs-4xl: 30px;
+  --fs-4xl: 27px;
   --fs-5xl: 27px;
-  --fs-6xl: 45px;
+  --fs-6xl: 37px;
 
   /* color */
   --fc-black: #000000;
@@ -195,11 +195,11 @@
   top: 0;
   align-items: start;
   gap: 8px;
-  color: white ;
+  color: white;
 }
 
 .lh_122 {
-  line-height: 122px;
+  line-height: 84px;
 }
 
 /* back to top */
@@ -285,6 +285,10 @@
 
   .mw_54 {
     max-width: 54px;
+  }
+
+  .lh_122 {
+    line-height: 122px;
   }
 }
 
