@@ -47,7 +47,7 @@ const KakMbi = () => {
       return (
         <div class="slick-counter d-lg-flex d-none">
           <span class="current ff_Montserrat fw-bold fs_6xl fc_dark lh_122">
-            {i + 1}
+           0{i + 1}
           </span>
           <span class="total ff_Montserrat fw-bold fs_4xl fc_dark text-nowrap pt-2"> / 06</span>
         </div>
@@ -65,7 +65,7 @@ const KakMbi = () => {
   };
   return (
     <>
-      <section className="py-5 position-relative" id="slider2">
+      <section className="py-5 mt-5 position-relative" id="slider2">
         <div className="ps-lg-5 ps-2">
           <h2 className="ff_Montserrat fw-normal fs_6xl text-uppercase fc_dark mb-0">
             КАК МЫ
