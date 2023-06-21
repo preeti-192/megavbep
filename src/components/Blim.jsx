@@ -6,7 +6,7 @@ const Blim = () => {
     <>
       <section className="py-5">
         <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
-          <Row className="align-items-center flex-wrap-reverse">
+          <Row className="align-items-center">
             <Col className="pe-xl-5 pe-4" lg={6} xs={12}>
               <video
                 muted
@@ -18,7 +18,7 @@ const Blim = () => {
               ></video>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="pe-lg-5 me-xl-4 me-xxl-4 ps-xxl-5 mb-lg-0 mb-3">
+              <div className="pe-lg-5 me-xl-4 me-xxl-4 ps-xxl-5 mb-lg-0 mt-3">
                 <h2 className="text-lg-end text-center fs_5xl fw-normal ff_Forum mb-xl-4  pb-xl-3 mb-lg-3 mb-2 fc_black">
                   ФУРНИТУРА
                 </h2>
