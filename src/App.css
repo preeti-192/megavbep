@@ -3,56 +3,43 @@
   padding-right: 12px;
   padding-left: 12px;
 }
-
 .bgSite {
   background-image: url(./assets/images/png/bg-site.png);
-  /* background: #000;   */
-  /* background-size: 100%, 100%; */
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
-
 .BasinButton {
   padding: 14px 17px;
   line-height: 120%;
   border: 3px solid var(--fc-black);
 }
-
 .lh_100 {
   line-height: 100%;
 }
-
 .gap_35 {
   gap: 35px;
 }
-
 .gap_20 {
   gap: 20px;
 }
-
 .z_50 {
   z-index: 50;
 }
-
 .z_51 {
   z-index: 51;
 }
-
 .logoHero {
   max-width: 230px;
 }
-
 .heroBtn {
   border: 3px solid var(--fc-light);
-  padding: 22px 11px 21px 12px;
+  padding: 6px 9px 6px 9px;
   transition: all 0.4s;
   line-height: 39px;
 }
-
 .heroBtn:hover {
   background-color: white !important;
   color: var(--fc-black);
 }
-
 .text_underline::after {
   content: "";
   position: absolute;
@@ -63,16 +50,13 @@
   background-color: var(--fc-grey);
   transition: all 0.3s ease-in-out;
 }
-
 .text_underline:hover::after {
   content: "";
   width: 0;
 }
-
 .navItems::after {
   transition: all 1s ease-in-out;
 }
-
 .navItems:hover::after {
   content: "";
   position: absolute;
@@ -85,13 +69,11 @@
   opacity: 20%;
   z-index: 0;
   border-radius: 5px;
-
-  .heroBtn:hover {
-    color: var(--fc-black);
-    background-color: white !important;
-  }
 }
-
+.heroBtn:hover {
+  color: var(--fc-black);
+  background-color: white !important;
+}
 @media (max-width: 1199.9px) {
   .text_underline::after {
     content: "";
@@ -103,7 +85,6 @@
     background-color: var(--fc-grey);
   }
 }
-
 @media (max-width: 1199.9px) {
   .navBarSM {
     position: fixed;
@@ -117,12 +98,15 @@
     gap: 24px;
     transition: all 0.3s ease-in-out;
   }
-
   .navBarSM ul {
     gap: 24px;
   }
 }
-
+@media (min-width: 768px) {
+  .heroBtn {
+    padding: 22px 11px 21px 12px;
+  }
+}
 @media (min-width: 992px) {
   .max_w1920 {
     max-width: 1920px;
@@ -130,24 +114,20 @@
     padding-left: 0;
   }
 }
-
 @media (min-width: 1200px) {
   .min_vh_xl_100 {
     min-height: 100vh;
   }
 }
-
 @media (min-width: 1400px) {
   .gap_60 {
     gap: 60px;
   }
 }
-
 @media (min-width: 1600px) {
   .gap_136 {
     gap: 136px !important;
   }
-
   .gap_83 {
     gap: 83px !important;
   }
