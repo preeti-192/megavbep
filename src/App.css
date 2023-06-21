@@ -35,6 +35,7 @@
   padding: 6px 9px 6px 9px;
   transition: all 0.4s;
   line-height: 39px;
+  transition: all .3S ease-in-out;
 }
 .heroBtn:hover {
   background-color: white !important;
@@ -55,7 +56,17 @@
   width: 0;
 }
 .navItems::after {
-  transition: all 1s ease-in-out;
+  content: '';
+  transition: all .3s ease-in-out !important;
+    position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 0;
+  height: 0;
+  opacity: 20%;
+  z-index: 0;
+  border-radius: 5px;
 }
 .navItems:hover::after {
   content: "";
