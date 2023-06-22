@@ -56,8 +56,8 @@ const OctaSlider = () => {
                 <div className="octaSliderBox d-flex flex-column justify-content-center align-items-center">
                   <img src={strings} alt="strings" className="mw_127" />
                   <h3 className=" text-center ff_Forum fw-normal fs_4xl mb-5 mt-3 fc_black">
-                    Вчера выполнили работу отлично. Спасибо, Умар. Вы отличный
-                    продавец работу.
+                    Вчера все доставли и работу отлично. Спасибо, Умар. Вы
+                    отличный выполнили продавец.
                   </h3>
                   <h2 className=" ff_Montserrat fw-bold fs_3xl fc_black text-center">
                     продавец
@@ -71,8 +71,8 @@ const OctaSlider = () => {
                 <div className="octaSliderBox d-flex flex-column justify-content-center align-items-center">
                   <img src={strings} alt="strings" className="mw_127" />
                   <h3 className="text-center ff_Forum fw-normal fs_4xl mb-5 mt-3 fc_black">
-                    Вчере доставли и выполнили работу отлично. Спасибо, Умар. Вы
-                    отличный.
+                    отличный Вчера все доставли и работу отлично. Спасибо, Умар.
+                    Вы выполнили продавец.
                   </h3>
                   <h2 className="ff_Montserrat fw-bold fs_3xl fc_black text-center">
                     выполнили

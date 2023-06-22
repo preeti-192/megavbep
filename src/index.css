@@ -159,12 +159,14 @@
 .octaSliderBox {
   background: rgba(217, 217, 217, 0.5);
   padding: 29px;
+  width: 100%;
+  height: 100%;
 }
 
 .octa_btn {
   border: 3px solid #000000;
-  padding: 24px;
-  line-height: 13px;
+  padding: 14px;
+  line-height: unset;
 }
 
 .slider_shadow {
@@ -356,6 +358,11 @@
     --fs-5xl: 40px;
     --fs-6xl: 50px;
   }
+    .octa_btn {
+      border: 3px solid #000000;
+      padding: 24px;
+      line-height: 13px;
+    }
 
   .end_40 {
     right: -20px;
