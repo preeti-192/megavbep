@@ -6,15 +6,10 @@ function LoaderHome() {
   useEffect(() => {
     setTimeout(() => {
       setloader(false);
+      document.body.style.overflow = "unset";
     }, 5000);
   }, []);
-  {
-    if (loder === true) {
-      document.body.classList.add("overflow-hidden");
-    } else {
-      document.body.classList.remove("overflow-hidden");
-    }
-  }
+
   return (
     <>
       {loder ? (
