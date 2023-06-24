@@ -65,7 +65,7 @@ const KakMbi = () => {
   };
   return (
     <>
-      <section className=" max_w1920 mx-auto py-5 mt-5 position-relative">
+      <section className=" max_w1920 mx-auto py-5 mt-xl-5 position-relative">
         <div className="ps-lg-5 ps-2">
           <h2 className="ff_Montserrat fw-normal fs_6xl text-uppercase fc_dark mb-0">
             КАК МЫ

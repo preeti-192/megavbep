@@ -23,10 +23,14 @@ const WashBasin = () => {
                 src={washBasin}
               ></video>
             </Col>
-            <Col lg={6} xs={12}>
+            <Col
+              lg={6}
+              xs={12}
+              className="d-flex align-items-center flex-column justify-content-center"
+            >
               <div
                 style={{ maxWidth: "630px" }}
-                className="pe-lg-5 me-xl-4 d-flex align-items-center flex-column ms-lg-auto mx-auto mb-lg-0 mt-3"
+                className=" d-flex align-items-center flex-column mb-lg-0 mt-3"
               >
                 <h2
                   className="text-center fs_5xl fw-normal ff_Forum mb-xxl-5 mb-lg-4 mb-2 fc_black lh_100"

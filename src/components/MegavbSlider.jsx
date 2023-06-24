@@ -67,15 +67,11 @@ const MegavbSlider = () => {
   };
   return (
     <>
-      <section className="py-5 position-relative" id="slider1">
-        <div className="slider_shadow position-absolute end-0 d-md-block d-none"></div>
-        <div className="slider_shadow position-absolute start-0 d-md-block d-none"></div>
+      <section className="py-5 position-relative px-3" id="slider1">
+        <div className="slider_shadow rightShadow position-absolute d-md-block d-none"></div>
+        <div className="slider_shadow leftShadow position-absolute d-md-block d-none"></div>
         <div className="container footerContainer position-relative">
-          <Slider
-            ref={slider}
-            {...settings}
-            className="Portfolio_slider pt-lg-5"
-          >
+          <Slider ref={slider} {...settings} className="Portfolio_slider">
             <div className="px-2">
               <img src={mirror} alt="mirror" className="w-100" />
             </div>
@@ -95,13 +91,13 @@ const MegavbSlider = () => {
           <img
             src={prevArrow}
             alt="prevArrow"
-            className="mw_127 SliderArrows position-absolute start_40 top-50 Cursor_Pointer"
+            className="mw_127 SliderArrows position-absolute start_40 top-50 Cursor_Pointer translate-middle-y"
             onClick={() => slider.current.slickPrev()}
           />
           <img
             src={nextArrow}
             alt="nextArrow"
-            className="mw_127 SliderArrows position-absolute end_40 top-50 Cursor_Pointer"
+            className="mw_127 SliderArrows position-absolute end_40 top-50 Cursor_Pointer translate-middle-y"
             onClick={() => slider.current.slickNext()}
           />
         </div>

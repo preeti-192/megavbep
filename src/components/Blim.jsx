@@ -8,7 +8,7 @@ const Blim = () => {
         <div className="max_w1920 mx-auto py-xl-4 my-lg-2">
           <Row className="align-items-center">
             <Col
-              className="pe-xl-5 pe-4"
+              className="pe-xl-5 pe-xl-4"
               lg={6}
               xs={12}
               data-aos="fade-right"
