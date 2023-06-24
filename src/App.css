@@ -6,6 +6,7 @@
 .bgSite {
   background-image: url(./assets/images/png/bg-site.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .BasinButton {
   padding: 14px 17px;
